@@ -1,0 +1,14 @@
+#game_buynow {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ps_plus {
+    background-color: #bebcbb;
+}
+
+#ps_now {
+    background-color: #161c3b;
+}
