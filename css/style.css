@@ -42,3 +42,23 @@
 #ps_now {
     background-color: #161c3b;
 }
+
+footer {
+    background-color: #00439c;
+}
+
+#language_sel::before {
+    content: url(../img/language-globe.svg);
+    margin-right: 10px;
+    width: 15px;
+    display: inline-block;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
