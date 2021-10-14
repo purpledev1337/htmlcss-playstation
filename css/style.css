@@ -5,6 +5,10 @@
     background-position: center;
 }
 
+#game_newgames {
+    background-color: #1f1f1f;
+}
+
 #ps_plus {
     background-color: #bebcbb;
 }
