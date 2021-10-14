@@ -2,12 +2,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#ps5_carousel {
-    height: 600px;
-}
+/* #ps_presentation {
+    height: 80vw;
+    min-height: 400px;
+} */
 
 #ps5_carousel .carousel-indicators {
-    transform: translate(0 , 100px);
+    position: static;
 }
 
 #ps5_carousel .carousel-indicators button {
