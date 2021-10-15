@@ -11,6 +11,22 @@
     width: 120px;
 }
 
+#search-btn {
+    width: 30px;
+}
+
+.nav-item.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-menu .dropdown-item img {
+    display: block;
+}
+
 /* JUMBOTRON rules */
 #jumbotron {
     height: 60vh;
