@@ -2,6 +2,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#sony_head {
+    background-color: #000;
+    text-align: right;
+}
+
+#sony_head img {
+    width: 120px;
+}
+
 /* JUMBOTRON rules */
 #jumbotron {
     height: 60vh;
