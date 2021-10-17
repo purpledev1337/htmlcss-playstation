@@ -28,7 +28,7 @@
 }
 
 /* JUMBOTRON rules */
-#jumbotron {
+#jumbotron_carousel_1 {
     height: 60vh;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -36,8 +36,41 @@
     background-position: top;
 }
 
-#jumbotron .container, #jumbotron .row {
+#jumbotron_carousel_2 {
     height: 60vh;
+    background-image: url(https://multiplayer.net-cdn.it/thumbs/images/2021/06/10/ratchet-and-clank-rift-apart-review_jpg_1200x0_crop_q85.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+#jumbotron_carousel .carousel-item .row {
+    height: 60vh;
+}
+
+#jumbotron_carousel .carousel-indicators {
+    position: static;
+}
+
+#jumbotron_carousel .carousel-indicators img {
+    border-radius: 20px;
+}
+
+#jumbotron_carousel .carousel-indicators .active img {
+    border: 4px solid #3790d8;
+    padding: 2px;
+}
+
+#jumbotron_carousel .carousel-indicators button {
+    width: 100%;
+    text-indent: 0;
+}
+
+#jumbotron_carousel .carousel-indicators button:hover {
+    opacity: 1;
+    position: relative;
+    bottom: 10px;
+    transition: all 400ms;
 }
 
 /* PS5 CAROUSEL rules */
@@ -45,13 +78,14 @@
     position: static;
 }
 
-#ps5_carousel .carousel-indicators .active {
-    border-bottom: 2px solid #3790d8;
+#ps5_carousel .carousel-indicators .active .indicator_title {
+    border: 3px solid #3790d8;
+    padding: 2%;
+    transition: all 100ms;
 }
 
 #ps5_carousel .carousel-indicators button {
     width: 100%;
-    height: 100%;
     text-indent: 0;
 }
 
@@ -83,6 +117,9 @@
     background-color: #161c3b;
 }
 
+#social_media img {
+    max-height: 150px;
+}
 
 /* FOOTER rules */
 footer {
@@ -103,4 +140,12 @@ footer ul li {
 footer ul li a {
     color: white;
     text-decoration: none;
+}
+
+@media all and (min-width:1140px) {
+    .my_container {
+        width: 80%;
+        min-width: 1140px;
+        margin: 0 auto;
+    }
 }
