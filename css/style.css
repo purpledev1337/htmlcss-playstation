@@ -151,7 +151,12 @@
 
 #ps5_carousel .carousel-indicators button {
     width: 100%;
+    min-height: 250px;
     text-indent: 0;
+}
+
+#ps5_carousel .carousel-indicators button {
+    height: unset;
 }
 
 #ps5_carousel .carousel-indicators button:hover {
@@ -228,5 +233,11 @@ footer ul li a {
     #nav_searchbar {
         width: 80vw;
         display: inline-block;
+    }
+}
+
+@media all and (max-width:767px) {
+    #ps5_carousel .carousel-inner {
+        height: 800px;
     }
 }
