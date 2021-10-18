@@ -50,6 +50,15 @@
     margin: 0 auto;
 }
 
+.dropdown-menu > li:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.dropdown-menu li .dropdown-item:hover  {
+    color: #3790d8;
+    background-color: transparent;
+}
+
 .dropdown-menu li {
     display: inline-block;
 }
@@ -61,6 +70,10 @@
 .dropdown_sublink ul li a {
     text-decoration: none;
     color: black;
+}
+
+.dropdown_sublink ul li a:hover {
+    color: #3790d8;
 }
 
 .dropdown_sublink ul li a::before {
