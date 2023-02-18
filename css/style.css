@@ -207,14 +207,6 @@ footer ul li a {
     text-decoration: none;
 }
 
-@media all and (min-width:1140px) {
-    .my_container {
-        width: 80%;
-        min-width: 1140px;
-        margin: 0 auto;
-    }
-}
-
 @media all and (max-width:991px) {
     #nav_container .dropdown-menu {
         text-align: left;
