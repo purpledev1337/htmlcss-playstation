@@ -230,3 +230,8 @@ footer ul li a {
         display: inline-block;
     }
 }
+
+#jumbotron_carousel .carousel-indicators {
+    margin-left: initial!important;
+    margin-right: initial!important;
+}
