@@ -151,6 +151,7 @@
 
 #ps5_carousel .carousel-indicators button {
     width: 100%;
+    min-height: 180px;
     text-indent: 0;
 }
 
